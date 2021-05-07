@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>exercice6</title>
+    </head>
+
+    <body>
+        <form method="post" action="ex.html">
+            <fieldset>
+                <legend>Votre identité</legend>
+                <div class="identite">
+
+                    <ol>
+                        <li>
+                            <label for="nom">Nom :</label>
+                            <input type="text" id="nom" name="nom" placeholder="Nom">
+                        </li>
+
+                        <li>
+                            <label for="prenom">Prénom :</label>
+                            <input type="text" id="prenom" name="prenom" placeholder="Prénom">
+                        </li>
+
+                        <li>
+                            <label for="email">Adresse mail :</label>
+                            <input type="email" id="email" name="email" placeholder="Adresse mail">
+                        </li>
+                    </ol>
+
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Adresse de livraison</legend>
+
+                <div class="adresse">
+                    <ol>
+                        <li>
+                            <label for="adresse">Adresse :</label>
+                            <textarea name="adresse" rows=4 cols=20></textarea>
+                        </li>
+                        <li>
+                            <label for="code">Code postal :</label>
+                            <input type="number" id="code" name="code" placeholder="Code postal">
+                        </li>
+                        <li>
+                            <label for="ville">Ville :</label>
+                            <input type="text" id="ville" name="ville" placeholder="Ville">
+                        </li>
+                    </ol>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Informations de règlements</legend>
+                <div class="informations">
+                    <ol>
+                        <li>
+                            <label for="carte">Type de carte bancaire :</label>
+                            <ul style="list-style-type: circle">
+                                <li>
+                                    <input id="visa" name="type_de_carte" type="radio">
+                                    <label for="visa">VISA</label>
+                                </li>
+                                <li>
+                                    <input id="mastercard" name="type_de_carte" type="radio">
+                                    <label for="visa">Mastercard</label>
+                                </li>
+                            </ul>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <label for="numero_carte">Numéro de carte :</label>
+                            <input id="numero_carte" name="numero_carte" type="number" placeholder="Numéro de carte" required>
+                        </li>
+                    
+
+                   
+                        <li>
+                            <label for="securite">Code de sécurité :</label>
+                            <input type="number" id="securite" name="securite" placeholder="Code de sécurité" required>
+                        </li>
+                   
+
+                   
+                        <li>
+                            <label for="Nom_du_titlaire">Nom du titulaire :</label>
+                            <input type="text" id="Nom_du_titlaire" name="Nom_du_titlaire" placeholder="Nom du titulaire" required>
+                        </li>
+                    </ol>
+                </div>
+            </fieldset>
+
+            
+            
+                <button type=submit>J'achète!</button>
+            
+
+
+        </form>
+
+    </body>
+</html>
