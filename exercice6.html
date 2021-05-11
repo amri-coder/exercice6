@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <title>exercice6</title>
+    <link href="exercice6.css" rel="stylesheet">
 </head>
 
 <body>
 
     <form method="post" action="ex.php">
-        <fieldset>
-            <legend>Votre identité</legend>
+        <fieldset class="fieldset1">
+            <legend class="leg1">Votre identité</legend>
             <div class="identite">
 
                 <ol>
@@ -34,14 +35,14 @@
         </fieldset>
 
 
-        <fieldset>
-            <legend>Adresse de livraison</legend>
+        <fieldset class="fieldset2">
+            <legend class="leg2">Adresse de livraison</legend>
 
             <div class="adresse">
                 <ol>
                     <li>
                         <label for="adresse">Adresse :</label>
-                        <textarea name="adresse" rows=4 cols=20 required></textarea>
+                        <textarea name="adresse" rows=4  required></textarea>
                     </li>
                     <li>
                         <label for="code">Code postal :</label>
@@ -55,8 +56,8 @@
             </div>
         </fieldset>
 
-        <fieldset>
-            <legend>Informations de règlements</legend>
+        <fieldset class="fieldset3">
+            <legend class="leg3">Informations de règlements</legend>
             <div class="informations">
                 <ol>
                     <li>
